@@ -11,8 +11,21 @@ body{
     background-attachment: fixed;
 }
 
-img{
-    border-radius: 50%;
-    max-width: 250px;
-    max-height: 250px;
+main{
+    position: relative;
+}
+
+section#foto-perfil img{
+    height: 250px;
+    width: 250px;
+}
+
+section#foto-perfil{
+    position: absolute;
+    border-radius: 49%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background:url('../imagens/frame-iphone.png') white;
 }
