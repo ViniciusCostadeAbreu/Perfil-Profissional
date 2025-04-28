@@ -1,31 +1,38 @@
 @charset "UTF-8";
 
-html, body{
+*{
     margin: 0px;
     padding: 0px;
 }
 
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+
 body{
-    background: url('../imagens/background2.jpg') no-repeat;
+    background: black /*url('../imagens/background2.jpg') no-repeat;*/;
     background-size: cover;
     background-attachment: fixed;
 }
 
 main{
     position: relative;
+    height: 100vh;
 }
 
-section#foto-perfil img{
+/*section#foto-perfil img{
     height: 250px;
     width: 250px;
-}
+}*/
 
-section#foto-perfil{
+section#perfil{
     position: absolute;
-    border-radius: 49%;
-    top: 50%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
 
-    background:url('../imagens/frame-iphone.png') white;
+    height: 250px;
+    width: 250px;
+    background:url('../imagens/perfil04.JPEG');
 }
