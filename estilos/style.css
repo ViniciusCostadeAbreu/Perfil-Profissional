@@ -21,18 +21,14 @@ main{
     height: 100vh;
 }
 
-/*section#foto-perfil img{
-    height: 250px;
-    width: 250px;
-}*/
-
 section#perfil{
     position: absolute;
-    top: 10%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
     height: 250px;
     width: 250px;
-    background:url('../imagens/perfil04.JPEG');
+    background:url('../imagens/perfilnovo.png');
+    border-radius: 50%;
 }
