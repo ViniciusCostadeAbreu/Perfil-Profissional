@@ -1,55 +1,83 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
 }
 
-html, body{
-    height: 80vh;
-    width: 98vw;
+html,body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 body{
-    background: url('../imagens/background2.jpg') no-repeat;
+    background: url('../imagens/background4.jpg') no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
-main{
-    position: relative;
-    height: 100vh;
-}
 
-section#perfil{
+section#perfil img{
+    border-radius: 50%;
+}
+section#perfil {
+    display: inline-block;
     position: absolute;
     top: 50%;
     left: 25%;
     transform: translate(-50%, -50%);
-
-    height: 500px;
-    width: 500px;
-    background:url('../imagens/perfilnovo.png');
-    border-radius: 50%;
 }
 
 section#infos{
-    position: relative;
-    top: 20%;
+    display: inline-block;
+    position: absolute;
+    top: 33%;
     left: 50%;
-    /*transform: translate(-50%, -50%);*/
 
-    color: white;
+    text-align: center;
+    color: black;
     height: 250px;
     width: 500px;
     
+    
+}
+
+section#infos img{
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(230, 227, 227, 0.281);
+    box-sizing: border-box;
+}
+section#infos img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.507);
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 10px black;
+    transition: transform 0.5s;
 }
 
 #infos>h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 100px;
+    text-align: justify;
+    font-size: 80px;
+    margin: 0px;
+    padding: 0px;
 }
 
 #infos>p{
     text-align: justify;
+    font-size: 18px;
+}
+
+#infos>h2{
+    text-align: justify;
+    font-size: 20px;
+}
+
+#infos p,h1,h2{
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.308);
 }
