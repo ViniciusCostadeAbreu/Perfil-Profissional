@@ -50,7 +50,7 @@ section#infos img{
     margin: 10px;
     text-align: center;
     border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(230, 227, 227, 0.281);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.582);
     box-sizing: border-box;
 }
 section#infos img:hover{
